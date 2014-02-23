@@ -12,7 +12,7 @@ Installation
 #. Install Question2Answer_ if you haven't already.
 #. Get the source code for this plugin directly from github_ or from the `q2apro plugin page`_.
 #. Extract the files.
-#. Optional: Change language strings in file ``comment-to-answer-lang.php``
+#. Optional: Change language strings in file ``q2apro-comment-to-answer-lang.php``
 #. Upload the files to a subfolder called ``q2apro-comment-to-answer`` inside the ``qa-plugin`` folder of your Q2A installation.
 #. Navigate to your site, go to **Admin -> Plugins**. Check if the plugin "Comment to Answer" is listed.
 #. Navigate to ``yourq2asite.com/convertcomment``. From there you can do the converting as admin.
