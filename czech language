@@ -1,0 +1,45 @@
+<?php
+/*
+	Plugin Name: Comment to Answer
+	Plugin URI: https://github.com/q2apro/q2a-comment-to-answer
+	Plugin Description: Converts a comment to an answer, optionally moves the succeeding comments
+	Plugin Version: 0.4
+	Plugin Date: 2014-02-23
+	Plugin Author: q2apro.com
+	Plugin Author URI: http://www.q2apro.com/
+	Plugin License: GPLv3
+	Plugin Minimum Question2Answer Version: 1.5
+	Plugin Update Check URI: https://raw.github.com/q2apro/q2a-comment-to-answer/master/qa-plugin.php
+
+	This program is free software. You can redistribute and modify it 
+	under the terms of the GNU General Public License.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	More about this license: http://www.gnu.org/licenses/gpl.html
+	
+*/
+	
+	return array(
+		'page_title' => 'Převod Komentáře na odpověď',
+		'not_allowed' => 'Nemáte oprávnění k přístupu na tuto stránku.',
+		'input_placeholder' => 'Vložit-ID komentáře', 
+		'move_thread' => 'Přesunout postupně v řadách komentáře k nové odpovědi',
+		'convertbtn' => 'Convert',
+		'success' => 'Komentář úspěšně převeden odpověďi. Výborně :)',
+		'answer_id' => 'ID - odpovědi ',
+		'question_id' => 'ID - otázky',
+		'return' => 'Vrátit se do konvertoru',
+		'error0' => 'Chyba: ID, které jste zadali nena žádný komentář.',
+		'error1' => 'Chyba: Nelze nastavit nový počet odpověďi na otázku.',
+		'error2' => 'Chyba: Nelze najít nadřazený komentář.',
+		'error3' => 'Chyba: Zdá se, že jste udělali něco nemožného.',
+	);
+	
+
+/*
+	Omit PHP closing tag to help avoid accidental output
+*/
